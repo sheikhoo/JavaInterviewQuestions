@@ -7,7 +7,7 @@ categories: java collection
 از نسخه 5، جاوا از جنریک ها(generics) پشتیبانی می کند. یکی از مزایایی که جنریک های جاوا برای ما به ارمغان می آورد ایمنی نوع (type safety) است. به عنوان مثال، وقتی یک شی myList را به عنوان `List<Integer>` اعلام کرده‌ایم، نمی‌توانیم عنصری را که نوع آن غیر از عدد صحیح است در myList قرار دهیم.
 با این حال، وقتی با مجموعه‌های عمومی کار می‌کنیم، اغلب می‌خواهیم `Collection<TypeA>` را به `Collection<TypeB>` تبدیل کنیم.
 در این آموزش، نحوه تبدیل `List<Integer>` به `List<String>` میپردازیم.
-## آماده کردن یک شیء List<Integer>`` به عنوان مثال
+## آماده کردن یک شیء `List<Integer>` به عنوان مثال
 برای شروع یک لیست از اعداد صحیح را مقداردهی اولیه می کنیم
 {% highlight java %}
 List<Integer> INTEGER_LIST = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
@@ -61,7 +61,7 @@ assertEquals(EXPECTED_LIST, result);
     <version>31.1-jre</version>
 </dependency>
 {% endhighlight %}
-در ادامه می توانیم از متد Lists.transform() این کتابخانه به شکل زیر استفاده نماییم
+در ادامه می توانیم از متد `Lists.transform()` این کتابخانه به شکل زیر استفاده نماییم
 {% highlight java %}
 List<String> result = Lists.transform(INTEGER_LIST, Functions.toStringFunction());
 {% endhighlight %}
