@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: سوالات مصاحبه تکنولوژی های جاوا
+title: آموزش جاوا و تکنولوژی های جاوا
 email: sheikhoo.iran@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  مجموع سوالات مصاحبه تکنولوژی های جاوا
-baseurl: /JavaInterviewQuestions/ # the subpath of your site, e.g. /blog
+  آموزش جاوا و تکنولوژی های جاوا
+baseurl: /JavaPersianLearn/ # the subpath of your site, e.g. /blog
 url: https://sheikhoo.github.io # the base hostname & protocol for your site, e.g. http://example.com
 domain: sheikhoo.github.io
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: sheikhoo
+github_username:  sheikhoo
 
 # Build settings
 theme: minima
