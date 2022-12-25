@@ -14,7 +14,7 @@ gem "minima", "~> 2.5"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 227", group: :jekyll_plugins
 
-gem 'jekyll-theme-mehdix-rtl', '~> 4.0', '>= 4.0.1'
+#gem 'jekyll-theme-mehdix-rtl', '~> 4.0', '>= 4.0.1'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
