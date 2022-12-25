@@ -15,7 +15,7 @@ List<Integer> INTEGER_LIST = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
 همانطور که کد بالا نشان می دهد، ما هفت عدد صحیح در شی INTEGER_LIST داریم. اکنون، هدف ما این است که هر عنصر عدد صحیح در INTEGER_LIST را به یک رشته تبدیل کنیم، به عنوان مثال، 1 به "1"، 2 به "2" و غیره. در نهایت، نتیجه باید برابر با:
 {% highlight java %}
 List<String> EXPECTED_LIST = Arrays.asList("1", "2", "3", "4", "5", "6", "7");
-{% highlight ruby %}
+{% endhighlight %}
 
 در این آموزش، به سه روش مختلف برای انجام این کار خواهیم پرداخت:
 -	با استفاده از جاوا 8، Stream API
