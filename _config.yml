@@ -29,7 +29,7 @@ twitter_username: sheikhoo
 github_username:  sheikhoo
 
 # Build settings
-theme: minima
+theme: jekyll-theme-mehdix-rtl
 plugins:
   - jekyll-feed
 

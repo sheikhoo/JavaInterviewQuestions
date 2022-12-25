@@ -70,4 +70,4 @@ List<String> result = Lists.transform(INTEGER_LIST, Functions.toStringFunction()
 assertEquals(EXPECTED_LIST, result);
 {% endhighlight %}
 
-منبع : [Convert a List of Integers to a List of Strings]: https://www.baeldung.com/java-convert-list-integers-to-list-strings
+منبع : [Convert-a-List-of-Integers-to-a-List-of-Strings]: https://www.baeldung.com/java-convert-list-integers-to-list-strings
