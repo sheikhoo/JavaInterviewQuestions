@@ -4,7 +4,6 @@ title:  "آموزش جاوا-آشنایی با جاوا"
 date:   2022-12-29 08:07:52 +0330
 categories: java java-tutorial
 ---
-<div style="direction: rtl;text-align: right;">
 جاوا یک زبان و تکنولوژی(پلتفرم) برنامه نویسی است. جاوا یک زبان سطح بالا، قوی، شی گرا و ایمن است.
 از آنجایی که جاوا دارای محیط زمان اجرا(runtime enviroment [JRE]) و API است به آن پلتفرم میگوییم.
 برنامه های جاوا قابل اجرا برروی انواع سیستم ها را دارد.
@@ -26,14 +25,16 @@ categories: java java-tutorial
 ## پلتفرم ها/ نسخه ها ی جاوا 
 4 پلتفرم یا نسخه جاوا وجود دارد:
 - 1) Java SE (Java Standard Edition)
+ 
 این یک پلت فرم برنامه نویسی جاوا است. که شامل API های برنامه نویسی جاوا مانند
 java.lang, java.io, java.net, java.util, java.sql, java.math etc. It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.
 
 - 2) Java EE (Java Enterprise Edition)
+ 
 این یک پلت فرم سازمانی است که عمدتاً برای توسعه وب و برنامه های کاربردی سازمانی استفاده می شود. که بر روی پلت فرم Java SE ساخته شده است. شامل موضوعاتی مانند Servlet, JSP, Web Services, EJB, JPA, etc.
 
 - 3) Java ME (Java Micro Edition)
+ 
 این یک پلت فرم میکرو است که به برنامه های تلفن همراه اختصاص داده شده است.
 
 - 4) JavaFX
-</div>
